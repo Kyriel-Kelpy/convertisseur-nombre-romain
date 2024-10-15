@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(20, 2, 28);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+.box, header{
+    width: 400px;
+    margin: auto;
+}
+
+.box{
+    border: white solid 3px;
+    padding: 30px;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.436);
+    color: white;
+}
+
+h1, p, #nombre-converti{
+    text-align: center;
+    
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+input, button{
+    width: 90%;
+    height: 45px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 25px;
+}
+input{
+    margin-bottom: 20px;
+    background-color: rgb(20, 2, 28);
+    color: white;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.box2{
+    height: 40px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(20, 2, 28);
+}
+
+.active{
+    display: flex;
+}
+
+.alerte{
+    border-color: red;
+}
