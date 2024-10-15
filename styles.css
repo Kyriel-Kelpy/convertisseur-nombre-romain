@@ -75,9 +75,9 @@ button{
         padding: 10px; /* Ajoute un peu de padding */
     }
     
-    .box2 {
+    .box {
         padding: 15px; /* Ajoute du padding à la zone d'affichage */
-        font-size: 16px; /* Agrandit la taille de la police dans la zone d'affichage */
+        font-size: 17px; /* Agrandit la taille de la police dans la zone d'affichage */
     }
 
     #nombre {
