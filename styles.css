@@ -68,6 +68,28 @@ button{
     color: rgb(20, 2, 28);
 }
 
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Ajuste la taille de la police */
+        padding: 10px; /* Ajoute un peu de padding */
+    }
+    
+    .box2 {
+        padding: 15px; /* Ajoute du padding à la zone d'affichage */
+        font-size: 16px; /* Agrandit la taille de la police dans la zone d'affichage */
+    }
+
+    #nombre {
+        width: 100%; /* Fait en sorte que le champ de saisie prenne toute la largeur */
+        margin-bottom: 10px; /* Ajoute un espacement sous le champ de saisie */
+    }
+
+    #btn-convertir {
+        width: 100%; /* Bouton en pleine largeur */
+    }
+}
+
 .active{
     display: flex;
 }
